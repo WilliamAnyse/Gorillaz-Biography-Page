@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> <!-- more modern then <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->  
+        <title>Gorillaz Biography Site</title>
+        <meta name="description" content="TODO Description. This profile-page is a homage to the earliest web designers who were working without CSS & JS which were only invented in 1994/5."/> <!-- Meta description tips: https://www.coderseo.com/meta-description-generator -->
+        <!-- <meta name="robots" content="noindex"> robots.txt file overrides-->
+        <link rel="icon" href="ninety-five_files/favicon.ico" type="image/x-icon"> 
+        <base target="_blank"> <!-- only keep with footer script excluding internal links -->
+
+        
+            <link rel="stylesheet" href="styles.css"> 
+        <style>
+        </style>
+
+    </head>
+    <body>
+       <h1>Characters</h1>
+       <p>Example Text</p>
+        <hr>
+        <a href="index.html">Homepage</a>
+        <hr>
+        <a href="https://github.com/WilliamAnyse"><img src="https://w4.rner.me/index_files/github.png" height="50" alt="GitHub"></a>
+        <a rev="Subdocument" href="https://www.instagram.com/williamanyse/"><img src="assests/Photo2.png" height="50" alt="Instagram"></a>
+        <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRzBlHrxcptLGRHPwDrwlnjcvsfFXJSlZCtSPChZGgcvFrWbcrGfcFgcvcdwSBgBPQVRBVCW"><img src="assests/Photo3.png" height="50" alt="Gmail"></a>
+        <hr>
+        <br>
+        <small> 
+        <script>
+        var links = document.links;
+        for (var i = 0; i < links.length; i++) {
+        if (links[i].hostname == window.location.hostname) // set other exclusion criteria by adding or conditions within the if parens with ||
+        {
+            links[i].target = "_self";
+        }
+        }
+        </script>
+    </body>
+</html>
