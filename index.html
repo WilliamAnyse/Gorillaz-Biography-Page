@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8"> <!-- more modern then <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->  
         <title>Gorillaz Biography Site</title>
@@ -10,61 +11,62 @@
 
 
             <link rel="stylesheet" href="styles.css"> 
+            <link rel="stylesheet" href="script.js"> 
         <style>
             /* or you could first try add internal CSS here */
         </style>
 
     </head>
     <body>
+        <div class="HeaderStuff">
         <h1>Gorillaz</h1>
         <h2>A british virtual band created in 1998</h2>
-        <img src="assests/Photo1.jpg" height="150">
+        <a href="index copy.html"> <img src="assests/Photo1.jpg" height="300" width="300"></a>
         <hr>
         <h2><em> An original band created by musician Damon Albarn and illustrator Jamie Hewlett </em></h2>
-        <hr>
+    </div>
         <h2>
-        <ul>
-            <li><a href="https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ">Gorillaz spotify page</a></li>
-            <li><a href="https://www.gorillaz.com">Gorillaz homepage</a></li>
-            <hr>
-            <li><a href="index copy.html">Gorillaz Albums</a> </li>
-            <li><a href="index copy 2.html">Background Information</a></li>
-            <li><a href="index copy 3.html">Characters</a></li>
-            <li><a href="index copy 4.html">Behind The Scenes</a></li>
-        </ul>
+        <div class="ButtonContainer1">
+            <a href="index copy 5.html" target="_self">
+            <button class="button1">
+                <p class="GorillazAlbums">Gorillaz Albums</p>
+            </button>
+        </a>
+            <a href="index copy 2.html" target="_self">
+            <button class="button2">
+                <p class="BackgroundInformation">Background Information</p>
+            </button>
+        </a>
+             <a href="index copy 3.html" target="_self">
+             <button class="button3">
+                 <p class="Characters">Characters</p>
+                </button>
+        </a>
+            <a href="index copy 4.html" target="_self"> 
+            <button class="button4">
+                <p class="BehindTheScenes">Behind The Scenes</p>
+            </button>
+         </a>                                                                                                                                                                                                                                                                                                      
+        </div>
         <hr>
-        <h2>
-        Contact Info
-        </h2>
-        <pre><!-- preformatted text, browser displays line breaks like text editor -->
-            <i>
-         Name: William Anyse
-         Location: United States
-         Contact method:Email linked below
-            </i>
-        </pre>
-        </address>
-        <!-- Social Logos. Bottom two from httpsgetdrawings.com/pixelated-icons -->
-        <hr>
-        <a href="https://github.com/WilliamAnyse"><img src="https://w4.rner.me/index_files/github.png" height="50" alt="GitHub"></a>
-        <a rev="Subdocument" href="https://www.instagram.com/williamanyse/"><img src="assests/Photo2.png" height="50" alt="Instagram"></a>
-        <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRzBlHrxcptLGRHPwDrwlnjcvsfFXJSlZCtSPChZGgcvFrWbcrGfcFgcvcdwSBgBPQVRBVCW"><img src="assests/Photo3.png" height="50" alt="Gmail"></a>
-        <hr>
+        <a href="https://github.com/WilliamAnyse"><img src="https://w4.rner.me/index_files/github.png" height="30" alt="GitHub"></a>
+        <a rev="Subdocument" href="https://www.instagram.com/williamanyse/"><img src="assests/Photo2.png" height="30" alt="Instagram"></a>
+        <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRzBlHrxcptLGRHPwDrwlnjcvsfFXJSlZCtSPChZGgcvFrWbcrGfcFgcvcdwSBgBPQVRBVCW"><img src="assests/Photo3.png" height="30" alt="Gmail"></a>
+   
         <br>
-        <small> 
-        Last modified: Wed July 3rd 2024  <!-- TODO update -->
+     <div class="extra">
+        <smaller> 
+        Last modified: Wed July 3rd 2024  
             <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="/">this website</a> © 2023 is based on w4rner's <a
                 href="http://w4.rner.me/ninety-five.html">
                 'Ninety Five' template</a> after <a href="http://www.geom.uiuc.edu/~munzner/">Tamara Munzner's</a> and therefore is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
             <i> "Nanos Gigantum Humeris Insidentes" </i>
-        </small>
+        </smaller>
         <br>
-
+     </div>
         </address>
 
-        <!-- <div id="footer"></div> -->
 
-        <!-- BODY END -->
         <script>
         var links = document.links;
         for (var i = 0; i < links.length; i++) {
@@ -74,5 +76,9 @@
         }
         }
         </script>
+
+    
     </body>
+
 </html>
+
